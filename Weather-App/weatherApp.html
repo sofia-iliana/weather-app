@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./weatherApp.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 style="text-align: center">Weather Forecast</h1>
+      <h4>
+        Search the weather of any place around the world, just by using the name
+        of a city
+      </h4>
+
+      <div id="form" style="text-align: center">
+        <label for="cityName">Enter the name of the city:</label>
+        <div id="inputSearch">
+          <input id="cityName" placeholder="City name" />
+          <button id="search">Search</button>
+        </div>
+      </div>
+      <div id="weatherElements"></div>
+      <div id="deg">
+        <button id="celsius">To Celsius</button>
+        <button id="farh">To Fahrenheit</button>
+      </div>
+    </div>
+
+    <script src="./weatherApp.js"></script>
+  </body>
+</html>
