@@ -58,7 +58,7 @@ button {
 }
 
 #celsius,
-#farh {
+#fahr {
   height: 40px;
   width: 100px;
   margin-right: 10px;
@@ -71,7 +71,7 @@ button {
   cursor: pointer;
 }
 
-#farh:hover {
+#fahr:hover {
   background-color: rgb(112, 110, 235);
   border: 1px solid beige;
   cursor: pointer;

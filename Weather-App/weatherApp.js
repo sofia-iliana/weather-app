@@ -20,7 +20,6 @@ function getWeather() {
         temperature: response.main,
         wind: response.wind,
       };
-      console.log(cityWeather);
       document.getElementById("weatherElements").innerHTML =
         "The weather in " +
         cityWeather.name +
@@ -66,7 +65,7 @@ document.getElementById("celsius").addEventListener("click", function () {
     " C.";
 });
 
-document.getElementById("farh").addEventListener("click", function () {
+document.getElementById("fahr").addEventListener("click", function () {
   document.getElementById("weatherElements").innerHTML =
     "The weather in " +
     cityWeather.name +
